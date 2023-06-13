@@ -10,7 +10,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 
 .content-container {
@@ -31,8 +32,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 60svw;
   gap: 50px;
   padding-left: 50px;
+  background-color: rgb(249, 250, 251);
 }
 
 .logo {
@@ -67,4 +70,12 @@ img {
   text-align: center;
   position: absolute;
   bottom: 15px;
+}
+
+.dummy-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 1.5rem;
+  padding-right: 330px;
 }
