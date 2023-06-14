@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'norsebold';
   src: url('../fonts/norse-bold-webfont.woff2') format('woff2'),
-    url('../fonts/Norse-Bold.otf') format('woff');
+    url('../fonts/norse-bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -16,6 +16,7 @@
 
 .content-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .column-left {
@@ -32,7 +33,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 60svw;
+  flex-grow: 1;
   gap: 50px;
   padding-left: 50px;
   background-color: rgb(249, 250, 251);
@@ -44,7 +45,7 @@
   align-items: center;
   background-color: rgba(0, 0, 0, 0.4);
   padding: 16px 0;
-  height: 12svh;
+  height: 15svh;
   position: relative;
   top: 30svh;
 }
@@ -77,5 +78,13 @@ img {
   flex-direction: column;
   gap: 30px;
   font-size: 1.5rem;
-  padding-right: 330px;
+}
+
+.dummy-text p {
+  line-height: 1.8rem;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: 300px 300px;
 }
