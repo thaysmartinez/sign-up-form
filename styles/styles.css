@@ -122,7 +122,7 @@ form > div {
   width: 250px;
   height: 30px;
   border-radius: 5px;
-  border: 1px solid #b8b8b8;
+  border: 1px solid #e5e7eb;
   padding: 7px;
   font-size: 14px;
 }
@@ -133,4 +133,13 @@ form > div {
   border: 1px solid #d55c5f;
   color: #d55c5f;
   box-shadow: none;
+}
+
+.input input[type='text']:focus,
+.input input[type='email']:focus,
+.input input[type='tel']:focus,
+.input input[type='password']:focus {
+  outline: none;
+  border: 1px solid rgb(98, 142, 253);
+  box-shadow: 5px 5px 5px rgb(231, 231, 231);
 }
