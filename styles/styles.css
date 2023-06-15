@@ -6,6 +6,14 @@
   font-style: normal;
 }
 
+:root {
+  --theme-color-green: #596d48;
+  --form-font-color-gray: #555555;
+  --invalid-color-red: #d55c5f;
+  --focus-color-blue: #628efd;
+  --bg-color-light-gray: #f9fafb;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -20,10 +28,9 @@
 }
 
 .column-left {
-  /* width: 30svw; */
   flex-grow: 1;
   background-image: url('../img/halie-west-25xggax4bSA-unsplash.jpg');
-  background-color: #cccccc;
+  background-color: var(--bg-color-light-gray);
   height: 100svh;
   background-size: cover;
   font-size: 1rem;
@@ -36,7 +43,7 @@
   justify-content: center;
   flex-grow: 2;
   gap: 50px;
-  background-color: rgb(249, 250, 251);
+  background-color: var(--bg-color-light-gray);
 }
 
 .logo {
@@ -94,7 +101,7 @@ img {
   background-color: #fff;
   margin-bottom: 50px;
   font-size: 0.8rem;
-  color: #555555;
+  color: var(--form-font-color-gray);
   box-shadow: 0 6px 6px rgb(214, 214, 214);
   padding-bottom: 20px;
 }
@@ -103,7 +110,7 @@ img {
   background-color: #fff;
   font-size: 1.5rem;
   padding-top: 20px;
-  color: #555555;
+  color: var(--form-font-color-gray);
 }
 
 p,
@@ -131,8 +138,8 @@ form > div {
 .input input[type='text']:invalid,
 .input input[type='email']:invalid,
 .input input[type='password']:invalid {
-  border: 1px solid #d55c5f;
-  color: #d55c5f;
+  border: 1px solid var(--invalid-color-red);
+  color: var(--invalid-color-red);
   box-shadow: none;
 }
 
@@ -141,7 +148,7 @@ form > div {
 .input input[type='tel']:focus,
 .input input[type='password']:focus {
   outline: none;
-  border: 1px solid rgb(98, 142, 253);
+  border: 1px solid --focus-color-blue;
   box-shadow: 5px 5px 5px rgb(231, 231, 231);
 }
 
@@ -150,7 +157,7 @@ button {
   height: 50px;
   border: none;
   border-radius: 10px;
-  background-color: #596d48;
+  background-color: var(--theme-color-green);
   color: #fff;
   font-size: 1.1rem;
   cursor: pointer;
@@ -162,11 +169,11 @@ button:hover {
 
 .text-login {
   font-size: 1.1rem;
-  color: #555555;
+  color: var(--form-font-color-gray);
 }
 
 .text-login a {
   text-decoration: none;
-  color: rgb(89, 109, 72);
+  color: var(--theme-color-green);
   font-weight: 700;
 }
