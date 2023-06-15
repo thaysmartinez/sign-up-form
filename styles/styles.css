@@ -144,3 +144,18 @@ form > div {
   border: 1px solid rgb(98, 142, 253);
   box-shadow: 5px 5px 5px rgb(231, 231, 231);
 }
+
+button {
+  width: 235px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: #596d48;
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(89, 109, 72, 0.5);
+}
