@@ -7,8 +7,8 @@
 }
 
 :root {
-  --theme-color-green: #596d48;
-  --form-font-color-gray: #555555;
+  --theme-color-red: #ca250fff;
+  --form-font-color-gray: #3c4f6cff;
   --invalid-color-red: #d55c5f;
   --focus-color-blue: #628efd;
   --bg-color-light-gray: #f9fafb;
@@ -29,8 +29,9 @@
 
 .column-left {
   flex-grow: 1;
-  background-image: url('../img/halie-west-25xggax4bSA-unsplash.jpg');
+  background-image: url('../img/oleksandr-horbach-rMvp8IJX1L0-unsplash.jpg');
   background-color: var(--bg-color-light-gray);
+  /* margin: auto; */
   height: 100svh;
   background-size: cover;
   font-size: 1rem;
@@ -54,7 +55,7 @@
   padding: 16px 0;
   height: 15svh;
   position: relative;
-  top: 30svh;
+  top: 10svh;
 }
 
 img {
@@ -148,7 +149,7 @@ form > div {
 .input input[type='tel']:focus,
 .input input[type='password']:focus {
   outline: none;
-  border: 1px solid --focus-color-blue;
+  border: 1px solid var(--focus-color-blue);
   box-shadow: 5px 5px 5px rgb(231, 231, 231);
 }
 
@@ -157,14 +158,14 @@ button {
   height: 50px;
   border: none;
   border-radius: 10px;
-  background-color: var(--theme-color-green);
+  background-color: var(--theme-color-red);
   color: #fff;
   font-size: 1.1rem;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: rgba(89, 109, 72, 0.5);
+  filter: opacity(0.5);
 }
 
 .text-login {
@@ -174,6 +175,6 @@ button:hover {
 
 .text-login a {
   text-decoration: none;
-  color: var(--theme-color-green);
+  color: var(--theme-color-red);
   font-weight: 700;
 }
