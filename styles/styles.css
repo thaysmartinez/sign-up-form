@@ -159,3 +159,14 @@ button {
 button:hover {
   background-color: rgba(89, 109, 72, 0.5);
 }
+
+.text-login {
+  font-size: 1.1rem;
+  color: #555555;
+}
+
+.text-login a {
+  text-decoration: none;
+  color: rgb(89, 109, 72);
+  font-weight: 700;
+}
