@@ -90,12 +90,13 @@ img {
   grid-auto-rows: 70px;
   align-items: center;
   align-content: center;
-  height: 30svh;
+  height: 20svh;
   background-color: #fff;
   margin-bottom: 50px;
   font-size: 0.8rem;
   color: #555555;
   box-shadow: 0 6px 6px rgb(214, 214, 214);
+  padding-bottom: 20px;
 }
 
 .title-container {
