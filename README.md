@@ -38,5 +38,5 @@ password fields matches. These improvements were added in the
 
 - Validate email address to match against username, domain and domain extension
 - Validate phone number against a predefined pattern and/or character length
-- Check if `PASSWORD` AND `CONFIRM PASSWORD` fields match
+- Check if `PASSWORD` and `CONFIRM PASSWORD` fields match
 - Add responsive layout to accomodate for small screens
