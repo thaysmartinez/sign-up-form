@@ -10,7 +10,7 @@ Form created using HTML and CSS only.
 
 The default email validation for email input type elements matches only for
 i.e. `username@domain`. I wanted to add a more robust e-mail validation,
-matching also for domain extension i.e.: `username@domain**.domainextension**`
+matching also for domain extension i.e.: `username@domain.domainextension`
 
 I tried several different patterns of regexp but warning message was not being
 displayed upon change of focus nor submission.
